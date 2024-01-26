@@ -1,0 +1,1037 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Arial Narrow;
+
+}
+body{
+    /* background-color: white; */
+    background-image: linear-gradient(to right,rgb(202, 142, 142), rgb(69, 150, 241));
+    height: 3000px; 
+    
+}
+.header{
+    padding-top: 30px;
+    box-shadow: 0px 5px 9px 0px;
+    
+}
+span{
+    color: blue;
+}
+.navbar-nav{
+    display: flex;
+    /* position: fixed; */
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.navbar{
+    margin-left: 35%;
+    
+}
+.navbar .subs {
+    color: rgb(34, 5, 5);
+    border: 1px solid rgb(119, 173, 223);
+    border-radius: 8px;
+    background-color: rgb(162, 186, 207);
+    
+    
+}
+.navbar .subs:hover{
+    background-color: rgb(208, 215, 221);
+    border-radius: 10px;
+    
+    box-shadow: 10px 10px 10px rgb(79, 79, 199);
+}
+.navbar-nav h2{
+    margin-left: 100px;
+    font-size: 2.4rem;
+    
+}
+
+.navbar a{
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    
+    
+    
+}
+.navbar a:hover{
+    border-bottom: 0.1rem solid black;
+    transform: scaleX(1px);
+    transition: 0.3s linear;
+    color: blue;
+  
+}
+
+.decripsi{
+    margin-left: 200px;
+    padding: 200px 0px 0px 0px;
+}
+.decripsi h1{
+    padding: 10px 0px;
+}
+.decripsi h2{
+    padding: 20px 0px;
+    color: rgb(24, 12, 201);
+    
+}
+.decripsi p{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(3, 3, 2);
+    
+}
+.backgraund img{
+    margin: -460px 0px 0px 60%;
+}
+.info {
+    margin-top: 50px;
+
+}
+.info a{
+    padding: 15px;
+    background-color: rgb(171, 171, 184);
+    font-weight: bold;
+    border-radius: 12px;
+    color: rgb(20, 12, 12);
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+
+.info a:hover{
+    /* background-color: rgb(18, 18, 201); */
+    color: rgb(15, 4, 4);
+    /* animation: showRight 1s ease forwards;    */
+    transition: 0.3s;
+    box-shadow: 10px 10px 10px rgb(102, 113, 175);
+    padding: 17px;
+}
+/* bagian about */
+
+
+.about{
+    background-position: center;
+    padding-top: 200px;
+}
+.about h2{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 45px;
+    margin-right: 400px;
+    margin-top: 40px; 
+    border-bottom: 2px solid rgb(4, 52, 156);
+    width: 100;
+}
+.fotokawan{
+    display: flex;
+    margin-left: 40px;
+    display: flex;
+    font-size: 17px;
+    font-weight: bold;
+}
+.fotokawan img{
+    height: 350px; 
+    border-radius: 20px;
+
+  
+}
+.conten p {
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word; /* Added to handle justification for non-Chrome browsers */
+    margin-right: 100px; /* Remove default margin to avoid extra space */
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.about-title{
+    margin-left: 80px;
+    
+}
+.kontak{
+    margin-top: 50px;
+}
+.kontak a{
+    padding: 10px; 
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(171, 171, 184);
+    color: black;
+    
+}
+.kontak a:hover{
+    padding: 12px;
+    box-shadow: 10px 10px 10px rgb(98, 98, 194);
+    
+}
+/* bagian service */
+.service{
+    margin-top:350px;
+    
+}
+.service h2{
+    text-align: center;
+    font-size:40px;
+}
+.service .web{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+
+
+.service .webdev {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 30px 50px 30px;
+    box-shadow: 10px 10px 10px rgb(79, 79, 151);
+}
+
+.web h3 {
+    text-align: center;
+}
+.webdev p{
+    margin-top: 20px;
+    color: rgb(19, 9, 3);
+    font-weight: bold;
+    font-size: 19px;
+}
+.more {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.more a {
+    background-color: rgb(149, 149, 190);
+    padding: 10px;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid black;
+    
+}
+.more a:hover{
+    border-radius: 10px;
+    background-color: rgb(77, 66, 170);
+    box-shadow: 10px 10px 10px ;
+}
+.header-skil h1{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 40px;
+}
+.skil{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.skil .sk{
+    text-align: center;
+    border: 1px solid rgb(17, 21, 24);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    padding: 10px 30px 50px 30px;
+}
+.sk .html {
+    text-align: start;
+    margin-top: 20px;
+}
+.html h3{
+    padding: 5px;
+
+}
+.sk .html span{
+    display: block;
+    background: white;
+    color: red;
+    position: relative;
+    height: 25px;
+    width: 300px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.sk .html span{
+    display: block;
+    background: white;
+    color: red;
+    position: relative;
+    height: 25px;
+    width: 300px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.sk .html p{
+    display: block;
+    background: white;
+    color: red;
+    position: relative;
+    height: 25px;
+    width: 300px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.sk h2{
+    padding: 10px;
+}
+/* html */
+.sk .html span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: red;
+    animation: progress 2s linear forwards; /* Use forwards to keep the final state */
+}
+
+@keyframes progress {
+    0% {
+        width: 0%;
+    }
+    90% {
+        width: 90%;
+    }
+    100% {
+        width: 90%; /* Maintain the width at 90% after animation */
+    }
+}
+
+.sk .html span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: black;
+    animation: percen 2s linear forwards;
+}
+
+@keyframes percen {
+    0% {
+        content: "0%";
+    }
+    5% {
+        content: "5%";
+    }
+    10% {
+        content: "10%";
+    }
+    20% {
+        content: "20%";
+    }
+    50% {
+        content: "50%";
+    }
+    70% {
+        content: "70%";
+    }
+    90% {
+        content: "90%";
+    }
+    100% {
+        content: "90%";
+    }
+}
+/* js */
+.js p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: rgb(37, 40, 216);
+    animation: progres 2.3s linear forwards; /* Use forwards to keep the final state */
+}
+
+@keyframes progres {
+    0% {
+        width: 0%;
+    }
+    90% {
+        width: 90%;
+    }
+    100% {
+        width:50%; /* Maintain the width at 90% after animation */
+    }
+}
+
+.js p::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgb(0, 0, 0);
+     
+    border-radius: 50px;
+    animation: perce 5s linear forwards;
+}
+
+@keyframes perce {
+    0% {
+        content: "0%";
+    }
+    5% {
+        content: "5%";
+    }
+    10% {
+        content: "10%";
+    }
+    20% {
+        content: "20%";
+    }
+    50% {
+        content: "50%";
+    }
+    70% {
+        content: "70%";
+    }
+    90% {
+        content: "90%";
+    }
+    100% {
+        content: "50%";
+    }
+}
+/* badian back end */
+.php h3{
+    text-align: start;
+    justify-content: start;
+    padding: 5px;
+}
+.php p{
+    display: block;
+    background: white;
+    color: red;
+    position: relative;
+    height: 25px;
+    width: 300px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.php p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: rgb(37, 40, 216);
+    animation: progre 3s linear forwards; /* Use forwards to keep the final state */
+}
+
+@keyframes progre {
+    0% {
+        width: 0%;
+    }
+    90% {
+        width: 90%;
+    }
+    100% {
+        width:90%; /* Maintain the width at 90% after animation */
+    }
+}
+
+.php p::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 31px;
+    color: white;
+    mix-blend-mode: difference;
+    border-radius: 50px;
+    animation: perc 3s linear forwards;
+}
+
+@keyframes perc {
+    0% {
+        content: "0%";
+    }
+    5% {
+        content: "5%";
+    }
+    10% {
+        content: "10%";
+    }
+    20% {
+        content: "20%";
+    }
+    50% {
+        content: "50%";
+    }
+    70% {
+        content: "70%";
+    }
+    90% {
+        content: "90%";
+    }
+    100% {
+        content: "90%";
+    }
+}
+/* bagian piton */
+.php span{
+    display: block;
+    background: white;
+    color: red;
+    position: relative;
+    height: 25px;
+    width: 300px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.php span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: rgb(71, 184, 80);
+    animation: progr 2s linear forwards; /* Use forwards to keep the final state */
+}
+
+@keyframes progr {
+    0% {
+        width: 0%;
+    }
+    90% {
+        width: 90%;
+    }
+    100% {
+        width:90%; /* Maintain the width at 90% after animation */
+    }
+}
+
+.php span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgb(2, 1, 1);
+    border-radius: 50px;
+    animation: per 2s linear forwards;
+}
+
+@keyframes per {
+    0% {
+        content: "0%";
+    }
+    5% {
+        content: "5%";
+    }
+    10% {
+        content: "10%";
+    }
+    20% {
+        content: "20%";
+    }
+    50% {
+        content: "50%";
+    }
+    70% {
+        content: "70%";
+    }
+    90% {
+        content: "90%";
+    }
+    100% {
+        content: "95%";
+    }
+}
+/* bagian My sql */
+.php{
+    margin-top: 15px;
+}
+.php b{
+    display: block;
+    background: white;
+    color: red;
+    position: relative;
+    height: 25px;
+    width: 300px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.php b::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: rgb(154, 161, 130);
+    animation: prog 2s linear forwards; /* Use forwards to keep the final state */
+}
+
+@keyframes prog {
+    0% {
+        width: 0%;
+    }
+    90% {
+        width: 90%;
+    }
+    100% {
+        width:30%; /* Maintain the width at 90% after animation */
+    }
+}
+
+.php b::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgb(2, 1, 1);
+    border-radius: 50px;
+    animation: pe 2s linear forwards;
+}
+
+@keyframes pe {
+    0% {
+        content: "0%";
+    }
+    5% {
+        content: "5%";
+    }
+    10% {
+        content: "10%";
+    }
+    20% {
+        content: "20%";
+    }
+    50% {
+        content: "50%";
+    }
+    70% {
+        content: "70%";
+    }
+    90% {
+        content: "90%";
+    }
+    100% {
+        content: "30%";
+    }
+}
+/* bagian design */
+/* figma */
+.design h3{
+    text-align: start;
+    justify-content: start;
+    padding-top: 10px;
+    padding: 5px;
+}
+.design span{
+    display: block;
+    background: white;
+    position: relative;
+    height: 25px;
+    width: 300px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.design span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: rgb(228, 231, 17);
+    animation: progr 2s linear forwards; /* Use forwards to keep the final state */
+}
+
+@keyframes progr {
+    0% {
+        width: 0%;
+    }
+    90% {
+        width: 90%;
+    }
+    100% {
+        width:45%; /* Maintain the width at 90% after animation */
+    }
+}
+
+.design span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgb(2, 1, 1);
+    border-radius: 50px;
+    animation: pert 2s linear forwards;
+}
+
+@keyframes pert {
+    0% {
+        content: "0%";
+    }
+    5% {
+        content: "5%";
+    }
+    10% {
+        content: "10%";
+    }
+    20% {
+        content: "20%";
+    }
+    50% {
+        content: "50%";
+    }
+    70% {
+        content: "70%";
+    }
+    90% {
+        content: "90%";
+    }
+    100% {
+        content: "45%";
+    }
+}
+.design h3{
+    text-align: start;
+    justify-content: start;
+    padding-top: 10px;
+    padding: 5px;
+}
+.design span{
+    display: block;
+    background: white;
+    position: relative;
+    height: 25px;
+    width: 300px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.design span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: rgb(228, 231, 17);
+    animation: progr 2s linear forwards; /* Use forwards to keep the final state */
+}
+
+@keyframes progr {
+    0% {
+        width: 0%;
+    }
+    90% {
+        width: 90%;
+    }
+    100% {
+        width:45%; /* Maintain the width at 90% after animation */
+    }
+}
+
+.design span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgb(2, 1, 1);
+    border-radius: 50px;
+    animation: pert 2s linear forwards;
+}
+
+@keyframes pert {
+    0% {
+        content: "0%";
+    }
+    5% {
+        content: "5%";
+    }
+    10% {
+        content: "10%";
+    }
+    20% {
+        content: "20%";
+    }
+    50% {
+        content: "50%";
+    }
+    70% {
+        content: "70%";
+    }
+    90% {
+        content: "90%";
+    }
+    100% {
+        content: "45%";
+    }
+}
+/* sket */
+.design h3{
+    text-align: start;
+    justify-content: start;
+    padding-top: 10px;
+    padding: 5px;
+}
+.design .skt{
+    display: block;
+    background: white;
+    position: relative;
+    height: 25px;
+    width: 300px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.design .skt::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: rgb(203, 9, 221);
+    animation: progrw 2s linear forwards; /* Use forwards to keep the final state */
+}
+
+@keyframes progrw {
+    0% {
+        width: 0%;
+    }
+    90% {
+        width: 90%;
+    }
+    100%{
+        width: 100%;
+    }
+    100% {
+        width:40%; /* Maintain the width at 90% after animation */
+    }
+}
+
+.design .skt::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgb(2, 1, 1);
+    border-radius: 50px;
+    animation: perr 2s linear forwards;
+}
+
+@keyframes perr {
+    0% {
+        content: "0%";
+    }
+    5% {
+        content: "5%";
+    }
+    10% {
+        content: "10%";
+    }
+    20% {
+        content: "20%";
+    }
+    50% {
+        content: "50%";
+    }
+    70% {
+        content: "70%";
+    }
+    90% {
+        content: "90%";
+    }
+    100% {
+        content: "35%";
+    }
+}
+/* bagian fotosop */
+.design h3{
+    text-align: start;
+    justify-content: start;
+    padding-top: 10px;
+    padding: 5px;
+}
+.design .poto{
+    display: block;
+    background: white;
+    position: relative;
+    height: 25px;
+    width: 300px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.design .poto::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: rgb(196, 64, 24);
+    animation: progris 2s linear forwards; /* Use forwards to keep the final state */
+}
+
+@keyframes progris {
+    0% {
+        width: 0%;
+    }
+    90% {
+        width: 90%;
+    }
+    100%{
+        width: 100%;
+    }
+    100% {
+        width:25%; /* Maintain the width at 90% after animation */
+    }
+}
+
+.design .poto::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 31px;
+    color: rgb(2, 1, 1);
+    border-radius: 50px;
+    animation: perri 2s linear forwards;
+}
+
+@keyframes perri {
+    0% {
+        content: "0%";
+    }
+    5% {
+        content: "5%";
+    }
+    10% {
+        content: "10%";
+    }
+    20% {
+        content: "20%";
+    }
+    50% {
+        content: "50%";
+    }
+    70% {
+        content: "70%";
+    }
+    90% {
+        content: "90%";
+    }
+    100% {
+        content: "25%";
+    }
+}
+.contak h1{
+    text-align: center;
+    padding: 150px 0px 60px;
+}
+.contakme{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.alamat{
+    padding: 50px;
+}
+.alamat h3{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(105, 57, 3);
+}
+.alamat p{
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(12, 9, 1);
+}
+.map iframe{
+    width: 90%;
+    padding: 0px 0px 100px 70px;  
+}
+.foter{
+    text-align: center;
+    justify-content: center;
+}
+.header-foter{
+    background-color: rgb(202, 202, 85);
+    box-shadow: 10px 0px 10px 10px rgb(99, 64, 64);
+}
+.foter h2{
+    padding-top: 50px;
+    padding-bottom: 20px;   
+    
+}
+.foter p{
+    padding-bottom: 10px;  
+    font-size: 18px;
+    font-weight: bold; 
+}
+.sosmed{
+    text-align: center;
+    justify-content: center;
+    padding-top: 7px;
+}
+.sosmed img{
+    border-radius: 200%;
+    width: 40px;
+    border: 2px solid rgb(223, 116, 16);
+    transition: 0.1s;
+}
+.sosmed img:hover{
+    width: 43px;
+}
+.sosmed h3{
+    padding-top: 23px;
+}
